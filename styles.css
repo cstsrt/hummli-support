@@ -35,7 +35,7 @@ h1 { font-size: clamp(3rem, 7vw, 6.5rem); line-height: .94; letter-spacing: -.06
 .principles strong { font-size: 1.1rem; margin-bottom: 5px; }
 .principles span { color: var(--muted); }
 .document { max-width: 800px; background: var(--paper); border-radius: 38px; padding: clamp(28px, 6vw, 72px); margin-top: 32px; box-shadow: 0 28px 70px rgba(71, 47, 0, .12); }
-.document h1 { font-size: clamp(3rem, 8vw, 5.5rem); }
+.document h1 { font-size: clamp(3rem, 8vw, 5.5rem); letter-spacing: -.035em; }
 .document h2 { margin: 42px 0 8px; font-size: 1.45rem; letter-spacing: -.02em; }
 .document p { color: #504a40; }
 .support .button { margin: 18px 0 12px; }
@@ -43,7 +43,7 @@ h1 { font-size: clamp(3rem, 7vw, 6.5rem); line-height: .94; letter-spacing: -.06
 details { border-top: 1px solid var(--line); padding: 18px 0; }
 details:last-of-type { border-bottom: 1px solid var(--line); }
 summary { cursor: pointer; font-weight: 700; }
-.footer { min-height: 120px; display: flex; align-items: center; justify-content: space-between; color: rgba(23,23,23,.65); font-size: .92rem; }
+.footer { min-height: 120px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; color: rgba(23,23,23,.65); font-size: .92rem; }
 
 @media (max-width: 720px) {
   .shell { width: min(100% - 28px, 1080px); }
